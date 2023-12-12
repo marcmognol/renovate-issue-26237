@@ -1,3 +1,6 @@
 module.exports = {
-    autodiscover: true
+    autodiscover: true,
+    autodiscoverFilter: [
+      "marcmognol/renovate*"
+    ]
   };
