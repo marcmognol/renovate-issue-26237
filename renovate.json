@@ -4,5 +4,12 @@
         "main",
         "test"
   ],
-  "automergeType": "branch"
+  "packageRules": [
+    {
+      "matchBaseBranches": ["test"],
+      "automerge": true,
+      "automergeType": "branch",
+      "enabled": true
+    }
+  ]
 }
