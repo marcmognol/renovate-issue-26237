@@ -1,0 +1,7 @@
+{
+    "extends": [
+        "config:recommended"
+    ],
+    "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+    "platform": "github"
+}
