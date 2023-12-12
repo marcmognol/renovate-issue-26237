@@ -3,5 +3,6 @@
   "baseBranches": [
         "main",
         "test"
-  ]
+  ],
+  "automergeType": "branch"
 }
