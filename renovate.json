@@ -19,7 +19,7 @@
         "^csproj"
       ],
       "matchStrings": [
-        "<ContainerBaseImage>(?<depName>.*?)<\/ContainerBaseImage>\\s"
+        "<ContainerBaseImage>(?<depName>.*):(?<currentValue>.*)<\/ContainerBaseImage>\\s"
       ],
       "datasourceTemplate": "docker"
     }
