@@ -3,5 +3,6 @@ module.exports = {
     autodiscover: true,
     autodiscoverFilter: [
       "marcmognol/renovate*"
-    ]
+    ],
+    prHourlyLimit: 1000
   };
