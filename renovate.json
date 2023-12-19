@@ -1,20 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "baseBranches": [
-        "main",
-        "test"
+        "main"
   ],
   "major": {
     "enabled": true
   },
-  "packageRules": [
-    {
-      "matchBaseBranches": ["test"],
-      "automerge": true,
-      "automergeType": "branch",
-      "enabled": true
-    }
-  ],
   "customManagers": [
     {
       "customType": "regex",
