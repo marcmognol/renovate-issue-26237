@@ -11,5 +11,17 @@
       "automergeType": "branch",
       "enabled": true
     }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "^csproj"
+      ],
+      "matchStrings": [
+        "<ContainerBaseImage>(?<depName>.*?)<\/ContainerBaseImage>\\s"
+      ],
+      "datasourceTemplate": "docker"
+    }
   ]
 }
