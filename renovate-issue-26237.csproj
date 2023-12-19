@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-renovate_issue_26237-8ea46951-b548-4eeb-8cbd-fb47fdaf8385</UserSecretsId>
     <RootNamespace>renovate_issue_26237</RootNamespace>
-    <ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet:7.0.10</ContainerBaseImage>
+    <ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet:7.0.10@sha256:c00ef8a2329953e2f75cd16f5e4ba67a4592036ac0039630313d139b347bf534</ContainerBaseImage>
   </PropertyGroup>
 
   <ItemGroup>
