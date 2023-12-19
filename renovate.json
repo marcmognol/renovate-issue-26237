@@ -16,7 +16,7 @@
     {
       "customType": "regex",
       "fileMatch": [
-        "*\\.csproj$"
+        ".*\\.csproj$"
       ],
       "matchStrings": [
         "<ContainerBaseImage>(?<depName>.*):(?<currentValue>.*)<\/ContainerBaseImage>\\s"
