@@ -4,7 +4,9 @@
         "main",
         "test"
   ],
-  "major": "enabled",
+  "major": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchBaseBranches": ["test"],
