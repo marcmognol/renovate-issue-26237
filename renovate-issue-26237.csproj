@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-renovate_issue_26237-8ea46951-b548-4eeb-8cbd-fb47fdaf8385</UserSecretsId>
     <RootNamespace>renovate_issue_26237</RootNamespace>
-    <ContainerBaseImage>clamav/clamav:1.2.1@sha256:c447f9c713058cdb915c5becbef004a678cd7b8d6f5d70ec53479ba7687c3375</ContainerBaseImage>
+    <ContainerBaseImage>clamav/clamav:1.2.1@sha256:d584c29eefc29e138eb14f243abef2f6712cffecac52194626a2b2f6bb3ec2c7</ContainerBaseImage>
   </PropertyGroup>
 
   <ItemGroup>
