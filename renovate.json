@@ -13,7 +13,7 @@
         ".*\\.csproj$"
       ],
       "matchStrings": [
-        "<ContainerBaseImage>(?<depName>[^:]*):(?<currentValue>.*)@sha256:(?<currentDigest>.*)<\/ContainerBaseImage>\\s"
+        "<ContainerBaseImage>(?<depName>[^:]*):(?<currentValue>.*)@(?<currentDigest>.*)<\/ContainerBaseImage>\\s"
       ],
       "datasourceTemplate": "docker"
     }
