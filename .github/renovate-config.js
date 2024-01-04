@@ -4,5 +4,6 @@ module.exports = {
     autodiscoverFilter: [
       "marcmognol/renovate*"
     ],
-    prHourlyLimit: 1000
+    prHourlyLimit: 1000,
+    rebaseWhen: "behind-base-branch"
   };
