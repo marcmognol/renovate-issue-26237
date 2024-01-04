@@ -5,17 +5,5 @@
   ],
   "major": {
     "enabled": true
-  },
-  "customManagers": [
-    {
-      "customType": "regex",
-      "fileMatch": [
-        ".*\\.csproj$"
-      ],
-      "matchStrings": [
-        "<ContainerBaseImage>(?<depName>[^:]*):(?<currentValue>.*)@(?<currentDigest>.*)<\/ContainerBaseImage>\\s"
-      ],
-      "datasourceTemplate": "docker"
-    }
-  ]
+  }
 }
