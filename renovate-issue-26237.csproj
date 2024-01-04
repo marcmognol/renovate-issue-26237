@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-renovate_issue_26237-8ea46951-b548-4eeb-8cbd-fb47fdaf8385</UserSecretsId>
     <RootNamespace>renovate_issue_26237</RootNamespace>
-    <ContainerBaseImage>clamav/clamav:1.2.1@sha256:c447f9c713058cdb915c5becbef004a678cd7b8d6f5d70ec53479ba7687c3375</ContainerBaseImage>
+    <ContainerBaseImage>docker.io/library/alpine:3.17@sha256:6e94b5cda2d6fd57d85abf81e81dabaea97a5885f919da676cc19d3551da4061</ContainerBaseImage>
   </PropertyGroup>
 
   <ItemGroup>
