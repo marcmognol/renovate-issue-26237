@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-renovate_issue_26237-8ea46951-b548-4eeb-8cbd-fb47fdaf8385</UserSecretsId>
     <RootNamespace>renovate_issue_26237</RootNamespace>
-    <ContainerBaseImage>docker.io/library/nginx:1.25.1</ContainerBaseImage>
+    <ContainerBaseImage>docker.io/library/nginx:1.25.3</ContainerBaseImage>
   </PropertyGroup>
 
   <ItemGroup>
